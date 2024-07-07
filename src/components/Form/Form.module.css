@@ -1,0 +1,44 @@
+.form {
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.form,
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.field {
+    gap: .8rem;
+}
+
+.form label {
+    color: black;
+    margin-left: .5rem;
+}
+
+.form input[type="text"],
+.form select {
+    padding: 1rem 1.2rem;
+    background-color: transparent;
+    border: .1rem solid;
+    font-size: 1.8rem;
+    font-weight: 400;
+    border-radius: 1rem;
+}
+
+.submit {
+    background-color: var(--primary);
+    border: none;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin-top: 2rem;
+}
